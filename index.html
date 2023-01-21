@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b965dc576d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="body">
+      <!-- Header -->
+      <header id="header" class="header sticky-top">
+        <nav class="topnav navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand offset-lg-1" id="home-page" href="#"
+              >Discover Sydney</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggler"
+              aria-controls="navbarToggler"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarToggler">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="places.html">Places</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- image -->
+      <section class="comtainer content">
+        <div class="image-content image-home">
+          <h1>We are here to help you discover Sydney</h1>
+          <p>We can provide you many services to help your holiday plan.</p>
+        </div>
+      </section>
+      <!-- Content -->
+      <section class="container description">
+        <h2>Welcome to Sydney, here you can have a fabulous holiday.</h2>
+        <br />
+        <p>
+          Welcome to Sydney Australia, Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Doloribus ipsam facilis eligendi rerum facere illum
+          dolor, natus debitis fugiat dolore porro officia numquam id commodi
+          quo fuga sit nobis molestiae?
+        </p>
+        <br />
+      </section>
+      <!-- Slider -->
+      <section class="container card-slider">
+        <h2 class="home-service-content">Our Services</h2>
+        <div id="carousel-home" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./imgs/home-flights.jpg"
+                class="d-block w-100"
+                alt="Flights Booking"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Flights Booking</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+                  ut.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/home-pickup.jpg"
+                class="d-block w-100"
+                alt="Airport pick up services"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Airport pick up services</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Distinctio, quisquam?
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/home-hotel.jpg"
+                class="d-block w-100"
+                alt="Hotel Booking"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Hotel Booking</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                  beatae!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/home-attractions.jpg"
+                class="d-block w-100"
+                alt="Attraction Tickets"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Attraction Tickets</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptate, eligendi.
+                </p>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-home"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="footer footer-container">
+        <div class="container">
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Link with us</h5>
+                <br />
+                <ul class="card-text">
+                  <li>
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-instagram"></i>
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li><i class="fa-brands fa-youtube"></i></li>
+                  <li><i class="fa-brands fa-tiktok"></i></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Contact Us</h5>
+                <br />
+                <p class="card-text">
+                  Address: 100 King Street, Sydney, NSW 2000
+                </p>
+                <p>Call: 1300 123 456</p>
+                <p>Email: servicediscoversydney@gmail.com</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <br />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur illo quas et mollitia. Aliquam, soluta?
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Terms & Conditions</h5>
+                <br />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                  amet voluptatum laboriosam officiis. Porro pariatur corporis
+                  incidunt commodi dolor omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">
+          Copyright &copy 2022 Discover Sydney. All rights reserved
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
